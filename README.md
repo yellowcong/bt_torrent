@@ -1,6 +1,9 @@
 # bt_torrent
 种子清洗的代码，我已经导成了jar包，可以直接使用，将Bt种子的path和path.utf8的名称转化为随机字符串
 
+#说明
+这个jar包，是我参考了elcipse插件还有别人的才写出来的，其中使用的时候将torrent-utils-yellowcong.zip里面的torrent-utils-yellowcong-1.0.jar 弄到项目中，就可以使用了，使用非常简单
+
 #核心代码
 TOTorrent torrent = TOTorrentFactory.deserialiseFromBEncodedFile(file,null);<br/>
 //获取数据
